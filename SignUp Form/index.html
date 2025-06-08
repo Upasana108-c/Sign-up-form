@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div id="image-container">
+      <div class="logo-container">
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" class="logo" alt="Odin Project Logo">
+        <span class="logo-text">ODIN</span>
+      </div>
+      <img src="images\Grass-Photo-1 (2).jpg" alt="Photo by Halie West on Unsplash" class="grass-image">
+      <span class="Photo-Attribution">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank">Halie West</a> on Unsplash</span>
+    </div>
+    <div class="info-container">
+      <p class="welcome-text">
+        This is not a real online service! You know you need something
+        <br> like this in your life to help you realise your deepest dreams.
+        <br> Sign up <em>now</em> to get started.</p>
+      </p>
+      <p>You <em>know</em> you want to.</p>
+    <div class="form-container">
+      <p>Let's do this!</p>
+      <form>
+        <div class="Item">
+          <label for ="firstname">FIRST NAME</label>
+          <input type="text" id="firstname" name="name1" required>
+        </div>
+        <div class="Item">
+          <label for ="lastname">LAST NAME</label>
+          <input type="text" id="lastname" name="name2" required>
+        </div>
+        <div class="Item">
+          <label for ="email">EMAIL</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="Item">
+          <label for ="phone">PHONE NUMBER</label>
+          <input type="phone" id="phone" name="phone" required>
+        </div>
+        <div class="Item">
+          <label for ="password">PASSWORD</label>
+          <input type="password" id="password" name="password" class="pwd" required>
+        </div>
+        <div class="Item">
+          <label for ="confirm-password">CONFIRM PASSWORD</label>
+          <input type="password" id="confirm-password" name="confirm-password" class="pwd" required>
+        </div>  
+      </form>
+    </div>
+      <button type="submit" class="signup-button">Create Account</button>
+      <p> Already have an account? <span style="color:#596D48"> Log in </span></p>
+    </div>
+  </div>
+</body>

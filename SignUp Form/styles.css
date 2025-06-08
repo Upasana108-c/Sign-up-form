@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    margin-left: 200px;
+    gap:20px;
+}
+
+p{
+    font-weight: bold;
+}
+.info-container {
+    width:60%;
+    padding: 10px;
+}
+
+.welcome-text {
+    margin-top:100px;
+}
+.form-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.Item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width:200px;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+input{
+    border-color: #E5E7EB;
+    border: solid 0.5px;
+}
+/* 
+input:focus:valid {
+     border: 1px solid #d0d1d4;
+}      */
+input:focus:invalid {
+    border-color: red;
+} 
+.signup-button {
+    background-color: #596D48;
+    color: white;
+    padding: 7px 27px 7px 27px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+
+#image-container {
+    position: relative;
+    width: 40%;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 0;
+    height: auto;
+}
+
+.grass-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.logo-container {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    align-items: center;
+    z-index: 1; /* Ensures the logo and text are above the grass image */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    padding: 10px 126px; /* Adds spacing around the logo and text */
+    border-radius: 8px; /* Rounds the corners of the background */
+}
+
+.logo {
+    width: 70px; /* Adjust size as needed */
+    height: auto;
+}
+
+.logo-text {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+    margin-left: 10px; /* Space between the logo and text */
+    font-family: 'Young Serif', serif; /* Matches the font style */
+    color: white;
+}
+
+input:focus {
+    border: 2px solid #1e90ff; /* or your preferred blue */
+    outline: none;
+}
+.Photo-Attribution {
+    font-size: 0.6rem;
+    font-weight: lighter;
+    color:white;
+    bottom: 10px;
+    left:120px;
+    position: absolute;
+    z-index: 2;
+}
+.Photo-Attribution a{
+    color: white;
+    test-decoration:underline;
+}
